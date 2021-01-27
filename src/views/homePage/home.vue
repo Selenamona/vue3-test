@@ -5,7 +5,7 @@
 </template>
 
 <script>
-  import BottomMenu from "../../components/bottomMenu"
+  import BottomMenu from "/@/components/bottomMenu.vue"
   export default {
     name: "home",
     data() {
