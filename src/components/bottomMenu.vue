@@ -1,10 +1,10 @@
 <template>
   <div class="fixed-bottom">
-    <div :class="[{ active: activeKey == 1 }, 'text']" @click="nextPage(1)">
+    <div :class="[{ active: activeKey === 1 }, 'text']" @click="nextPage(1)">
       首页
     </div>
     <img src="@/assets/images/logo.png" alt="" />
-    <div :class="[{ active: activeKey == 2 }, 'text']" @click="nextPage(2)">
+    <div :class="[{ active: activeKey === 2 }, 'text']" @click="nextPage(2)">
       我的
     </div>
   </div>
@@ -14,11 +14,11 @@
 import { ref } from 'vue'
 export default {
   name: 'HelloWorld',
-  setup(props, ctx) {
-    console.log(props, ctx)
-    let activeKey = ref('1')
-    const nextPage = (type) => {
-      activeKey.value = type
+  setup(props, { emit }) {
+    let activeKey = ref(1)
+    const nextPage = (tab) => {
+      activeKey.value = tab
+      emit('selectTab', tab)
     }
     return {
       activeKey,

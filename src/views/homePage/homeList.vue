@@ -1,14 +1,11 @@
 <!--  -->
 <template>
-  <div class="personal">123123</div>
+  <div class="homeList">12222</div>
 </template>
 
 <script>
 export default {
-  name: 'personal',
-  data() {
-    return {}
-  },
+  name: 'homeList',
   components: {},
 }
 </script>

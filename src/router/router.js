@@ -4,11 +4,11 @@ const routes = [
   {
     path: "/",
     component: () => import("/@/views/homePage/home.vue")
-  },
-  {
-    path: "/personal",
-    component: () => import("/@/views/personal/personal.vue")
   }
+  // {
+  //   path: "/personal",
+  //   component: () => import("/@/views/personal/personal.vue")
+  // }
 ];
 
 export default createRouter({
