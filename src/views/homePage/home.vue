@@ -1,18 +1,17 @@
-<!--  -->
+<!-- 首页 -->
 <template>
-  <div class="home"></div>
+  <div>231</div>
+  <BottomMenu />
 </template>
 
 <script>
-export default {
-  name: 'home',
-  data() {
-    return {}
-  },
-  created() {},
-  mounted() {},
-  methods: {},
-  components: {},
-}
+  import BottomMenu from "../../components/bottomMenu"
+  export default {
+    name: "home",
+    data() {
+      return {};
+    },
+    components: { BottomMenu }
+  };
 </script>
 <style lang="scss" scoped></style>

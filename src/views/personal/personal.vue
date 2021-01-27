@@ -1,6 +1,6 @@
 <!--  -->
 <template>
-  <div class="personal"></div>
+  <div class="personal">123123</div>
 </template>
 
 <script>
@@ -9,9 +9,6 @@ export default {
   data() {
     return {}
   },
-  created() {},
-  mounted() {},
-  methods: {},
   components: {},
 }
 </script>
