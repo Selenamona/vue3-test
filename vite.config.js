@@ -30,7 +30,6 @@ module.exports = {
     "/@/": path.resolve(__dirname, "./src")
   },
   chainWebpack: config => {
-    console.log(config, "config");
     // config.plugin("html").tap(args => {
     //   args[0].title = "车来财合伙人";
     //   return args;

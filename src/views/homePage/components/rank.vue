@@ -1,11 +1,11 @@
-<!-- 首页列表 -->
+<!-- 首页排名 -->
 <template>
-  <div class="homeList">12222</div>
+  <div class="rank"></div>
 </template>
 
 <script>
 export default {
-  name: 'homeList',
+  name: 'rank',
   components: {},
 }
 </script>
