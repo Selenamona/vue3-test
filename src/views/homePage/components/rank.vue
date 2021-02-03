@@ -100,7 +100,6 @@ export default {
   justify-content: space-between;
   border-bottom: 1px solid #31343a;
   padding: 0.12rem 0;
-  margin: 0 0.16rem;
   .item {
     .nickName {
       font-size: 0.11rem;

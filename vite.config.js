@@ -14,7 +14,7 @@ module.exports = {
    * @default 'dist'
    */
   outDir: "target",
-  port: 3000,
+  port: 3001,
   // 是否自动在浏览器打开
   open: true,
   // 是否开启 https
