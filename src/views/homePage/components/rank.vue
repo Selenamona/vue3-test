@@ -19,44 +19,39 @@ export default {
     const rankData = [
       {
         userId: 100021,
-        userName: "斯达康",
-        userAvatar:
-          "https://thirdwx.qlogo.cn/mmopen/vi_32/qdgywwKjochlzkLnYkOY5E0pP0QIxfjFRT2bbNDhF3ribKverMlhpwUAjSr6nlPaUT7YMOvPY3E0vFw6ur4KWjw/132",
+        userName: "高傲女王百毒不侵",
+        userAvatar: "/static/avatar/1.jpeg",
         profile: "哈哈车神",
         hot: 977
       },
       {
         userId: 100032,
-        userName: "selenamona",
-        userAvatar:
-          "https://thirdwx.qlogo.cn/mmopen/vi_32/JOQ9e9RhnqFZQicicZR5hicITuZ40d0b2TVpCAAvEkBJM9YHYl6ibLNZufLDrx9R0WFYfVkRTSsLjjibNiabesCEU76w/132",
+        userName: "Selenamona",
+        userAvatar: "/static/avatar/2.jpeg",
         profile: null,
         hot: 411
       },
       {
         userId: 100033,
-        userName: "丹江口市呢",
-        userAvatar:
-          "https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLXD1Zpsib4BLGvKOhsUBRgNnO5e3TwQrqgrPop3q46ws6Esn0bNdh2W1x4svSGIYKu1XnJxBUUcdg/132",
+        userName: "少年逆光而立",
+        userAvatar: "/static/avatar/3.jpeg",
         profile: "全宇宙最拉轰的车行",
         hot: 380
       },
       {
         userId: 100054,
-        userName: "sdfksd fsdfks",
-        userAvatar:
-          "https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLAeExOiaEkke9lXuMNVKiaepJiadEVBfj66E7gurt10k8qwqiboheJmyPuZPpPbqLAtJPrtxwxCm4vPg/132",
+        userName: "鬼龙帝",
+        userAvatar: "/static/avatar/4.jpeg",
         profile:
-          "首都师范大学出版社出版时间地点限制学生教育学院毕业证成绩单文凭学历优秀的学历认证毕业证成绩单学历认证学生。",
+          "林肯在外观上非常的霸气，还拥有惊人的体型和出色的实用性以及宽敞、舒适的驾乘空间。",
         hot: 233
       },
       {
         userId: 100025,
-        userName: "测试需要更换下昵称名称为长的名称",
-        userAvatar:
-          "https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIhhibwDVriaLRqAPl7PNa2pL2k6pIbJQ3rPgWlDOCsMcpVDmerJIK4eeBw9wbHHx2g1EmXLL6VTv5w/132",
+        userName: "Extreme极致",
+        userAvatar: "/static/avatar/5.jpg",
         profile:
-          "酱香白酒二手车交易市场可口可乐了看看啦啦啦可口可乐了看看啦啦啦可口可乐了看看啦啦啦可口可乐了看看啦啦啦了酱香白酒二手车交易市场可口可乐了看看啦啦啦可口可乐了看看啦啦啦可口可乐了看看啦啦啦可口可乐了看看啦啦啦了酱香白酒二手车交易市场可口可乐了看看啦啦啦可口可乐了看看啦啦啦可口可乐了看看啦啦啦可口可乐了看看啦啦啦了酱香白酒二手车交易市场可口可乐了看看啦啦啦可口可乐了看看啦啦啦可口可乐了看看啦啦啦可口可乐了看看啦啦啦了酱香白酒二手车交易市场可口可乐了看看啦啦啦可口可乐了看看啦啦啦可口可乐了看看啦啦啦可口可乐了看看啦啦啦了酱香白酒二手车交易市场可口可乐了看看啦啦啦可口可乐了看看啦啦啦可口可乐了看看啦啦",
+          "保时捷是一个知名的跑车品牌，在骨子里刻下了赛车场上激情澎湃的基因。在车身轮廓比例方面保持保时捷传统的形象。",
         hot: 226
       }
     ];

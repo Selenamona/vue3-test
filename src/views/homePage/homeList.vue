@@ -22,7 +22,10 @@
       success-text="刷新成功"
       @refresh="onRefresh"
     >
-      <ListCard :list="listdata" />
+      <div class="listWrap">
+        <ListCard :list="leftList" />
+        <ListCard :list="rightList" style="margin-left: 10px" />
+      </div>
     </van-pull-refresh>
   </div>
 </template>
@@ -44,12 +47,19 @@ export default {
         { title: "新车", code: 1 },
         { title: "二手车", code: 2 }
       ],
-      listdata: []
+      leftList: [],
+      rightList: []
     });
     const onRefresh = () => {};
 
     const getList = async () => {
-      state.listdata = await createList();
+      const list = await createList();
+      state.leftList = list.filter((item, index) => {
+        return index % 2 === 0;
+      });
+      state.rightList = list.filter((item, index) => {
+        return index % 2 === 1;
+      });
     };
 
     onMounted(() => {
@@ -95,6 +105,9 @@ export default {
         height: 0.2rem;
       }
     }
+  }
+  .listWrap {
+    display: flex;
   }
 }
 </style>

@@ -11,21 +11,21 @@
 </template>
 
 <script>
-import { ref } from 'vue'
+import { ref } from "vue";
 export default {
-  name: 'HelloWorld',
+  name: "HelloWorld",
   setup(props, { emit }) {
-    let activeKey = ref(1)
-    const nextPage = (tab) => {
-      activeKey.value = tab
-      emit('selectTab', tab)
-    }
+    let activeKey = ref(1);
+    const nextPage = tab => {
+      activeKey.value = tab;
+      emit("selectTab", tab);
+    };
     return {
       activeKey,
-      nextPage,
-    }
-  },
-}
+      nextPage
+    };
+  }
+};
 </script>
 
 <style lang="scss" scoped>
@@ -38,6 +38,8 @@ export default {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background: #151518;
+  z-index: 10;
   img {
     width: 0.28rem;
     height: 0.28rem;
@@ -49,7 +51,7 @@ export default {
     font-weight: bold;
     flex: 1;
     &::after {
-      content: '';
+      content: "";
       width: 0.2rem;
       height: 0.02rem;
       border-radius: 0.02rem;
