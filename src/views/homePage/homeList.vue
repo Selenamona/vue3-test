@@ -9,6 +9,7 @@
         :class="['tab', { active: activeCode === item.code }]"
         v-for="item in tabList"
         :key="item.code"
+        @click="selectCarType(item.code)"
       >
         {{ item.title }}
       </div>
@@ -62,13 +63,21 @@ export default {
       });
     };
 
+    const selectCarType = code => {
+      state.activeCode = code;
+      state.leftList = [];
+      state.rightList = [];
+      getList();
+    };
+
     onMounted(() => {
       getList();
     });
 
     return {
       ...toRefs(state),
-      onRefresh
+      onRefresh,
+      selectCarType
     };
   }
 };
