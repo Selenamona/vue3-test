@@ -3,9 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "mock": "json-server --watch mock/faker-data.js",
-    "mockdev": "npm run mock | npm run dev"
+    "build": "vite build"
   },
   "dependencies": {
     "axios": "^0.21.1",
