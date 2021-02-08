@@ -13,7 +13,7 @@ import { ref } from "vue";
 export default {
   name: "home",
   setup() {
-    let tab = ref(2);
+    let tab = ref(1);
     const selectTab = key => {
       tab.value = key;
     };

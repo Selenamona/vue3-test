@@ -117,6 +117,7 @@ export default {
   }
   .listWrap {
     display: flex;
+    padding-bottom: 0.6rem;
   }
 }
 </style>
