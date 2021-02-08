@@ -21,9 +21,6 @@ export default {
   name: "listCard",
   props: {
     list: Array
-  },
-  setup(props) {
-    console.log(props, "props");
   }
 };
 </script>
