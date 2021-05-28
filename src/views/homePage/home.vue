@@ -8,7 +8,7 @@
 <script>
 import HomeList from "./homeList.vue";
 import Personal from "./personal.vue";
-import BottomMenu from "/@/components/bottomMenu.vue";
+import BottomMenu from "/@/components/BottomMenu.vue";
 import { ref } from "vue";
 export default {
   name: "home",

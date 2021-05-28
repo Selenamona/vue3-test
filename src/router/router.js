@@ -8,6 +8,10 @@ const routes = [
   {
     path: "/demo/verify",
     component: () => import("/@/views/demo/verify.vue")
+  },
+  {
+    path: "/fans",
+    component: () => import("/@/views/fans/fans.vue")
   }
   // {
   //   path: "/personal",
@@ -18,4 +22,11 @@ const routes = [
 export default createRouter({
   history: createWebHashHistory(),
   routes
+  // scrollBehavior(to, from, savedPosition) {
+  //   if (savedPosition) {
+  //     return savedPosition;
+  //   } else {
+  //     return { x: 0, y: 0 };
+  //   }
+  // }
 });

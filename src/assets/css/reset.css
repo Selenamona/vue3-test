@@ -84,7 +84,7 @@ textarea {
     margin: 0;
     padding: 0;
     border: 0;
-    vertical-align: baseline;
+    /* vertical-align: baseline; */
     box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
     -webkit-user-select: auto;
@@ -119,13 +119,13 @@ section {
 }
 
 body {
-  line-height: 1;
   width: 100%;
   overflow-x: hidden;
   overflow: auto;
   /* 用于 android4+，或其他设备 */
   -webkit-overflow-scrolling: touch;
   /* 用于 ios5+ */
+  line-height: 1;
 }
 
 body,
